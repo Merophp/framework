@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="70" assertions="107" errors="0" warnings="0" failures="0" skipped="0" time="0.967944">
+    <testsuite name="UnitTests" tests="56" assertions="80" errors="0" warnings="0" failures="0" skipped="0" time="0.792621">
+      <testsuite name="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" tests="15" assertions="22" errors="0" warnings="0" failures="0" skipped="0" time="0.632011">
+        <testcase name="testSetWithInvalidInput" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="25" assertions="1" time="0.041417"/>
+        <testcase name="testSetMultipleWithInvalidInput" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="30" assertions="1" time="0.044430"/>
+        <testcase name="testGetMultipleWithInvalidInput" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="35" assertions="1" time="0.040524"/>
+        <testcase name="testGetWithInvalidInput" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="40" assertions="1" time="0.051313"/>
+        <testcase name="testHasWithInvalidInput" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="45" assertions="1" time="0.040894"/>
+        <testcase name="testDeleteWithInvalidInput" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="50" assertions="1" time="0.044691"/>
+        <testcase name="testDeleteMultipleWithInvalidInput" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="55" assertions="1" time="0.053652"/>
+        <testcase name="testSet" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="60" assertions="1" time="0.037799"/>
+        <testcase name="testGet" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="64" assertions="2" time="0.035232"/>
+        <testcase name="testMultipleSet" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="70" assertions="1" time="0.047357"/>
+        <testcase name="testMultipleGet" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="74" assertions="2" time="0.038850"/>
+        <testcase name="testHas" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="81" assertions="2" time="0.046401"/>
+        <testcase name="testDelete" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="87" assertions="1" time="0.034899"/>
+        <testcase name="testDeleteMultiple" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="93" assertions="3" time="0.038886"/>
+        <testcase name="testClear" class="CookieCacheTest" classname="CookieCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\CookieCacheTest.php" line="101" assertions="3" time="0.035668"/>
+      </testsuite>
+      <testsuite name="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" tests="15" assertions="22" errors="0" warnings="0" failures="0" skipped="0" time="0.040955">
+        <testcase name="testSetWithInvalidInput" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="23" assertions="1" time="0.025316"/>
+        <testcase name="testSetMultipleWithInvalidInput" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="28" assertions="1" time="0.000184"/>
+        <testcase name="testGetMultipleWithInvalidInput" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="33" assertions="1" time="0.000082"/>
+        <testcase name="testGetWithInvalidInput" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="38" assertions="1" time="0.000081"/>
+        <testcase name="testHasWithInvalidInput" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="43" assertions="1" time="0.000081"/>
+        <testcase name="testDeleteWithInvalidInput" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="48" assertions="1" time="0.000080"/>
+        <testcase name="testDeleteMultipleWithInvalidInput" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="53" assertions="1" time="0.000080"/>
+        <testcase name="testSet" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="58" assertions="1" time="0.002350"/>
+        <testcase name="testGet" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="62" assertions="2" time="0.002798"/>
+        <testcase name="testMultipleSet" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="68" assertions="1" time="0.000267"/>
+        <testcase name="testMultipleGet" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="72" assertions="2" time="0.008973"/>
+        <testcase name="testHas" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="79" assertions="2" time="0.000386"/>
+        <testcase name="testDelete" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="85" assertions="1" time="0.000079"/>
+        <testcase name="testDeleteMultiple" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="91" assertions="3" time="0.000117"/>
+        <testcase name="testClear" class="RuntimeCacheTest" classname="RuntimeCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\RuntimeCacheTest.php" line="99" assertions="3" time="0.000080"/>
+      </testsuite>
+      <testsuite name="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" tests="16" assertions="25" errors="0" warnings="0" failures="0" skipped="0" time="0.004014">
+        <testcase name="testSetWithInvalidInput" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="24" assertions="1" time="0.000094"/>
+        <testcase name="testSetMultipleWithInvalidInput" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="29" assertions="1" time="0.000084"/>
+        <testcase name="testGetMultipleWithInvalidInput" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="34" assertions="1" time="0.000158"/>
+        <testcase name="testGetWithInvalidInput" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="39" assertions="1" time="0.000082"/>
+        <testcase name="testHasWithInvalidInput" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="44" assertions="1" time="0.000083"/>
+        <testcase name="testDeleteWithInvalidInput" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="49" assertions="1" time="0.000082"/>
+        <testcase name="testDeleteMultipleWithInvalidInput" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="54" assertions="1" time="0.000083"/>
+        <testcase name="testSet" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="59" assertions="1" time="0.000098"/>
+        <testcase name="testGet" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="63" assertions="2" time="0.000086"/>
+        <testcase name="testMultipleSet" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="69" assertions="1" time="0.000183"/>
+        <testcase name="testMultipleGet" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="73" assertions="2" time="0.000215"/>
+        <testcase name="testHas" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="80" assertions="2" time="0.000082"/>
+        <testcase name="testDelete" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="86" assertions="1" time="0.000083"/>
+        <testcase name="testDeleteMultiple" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="92" assertions="3" time="0.000081"/>
+        <testcase name="testClear" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="100" assertions="3" time="0.000113"/>
+        <testcase name="testGrab" class="TransactionSessionCacheTest" classname="TransactionSessionCacheTest" file="C:\Projects\merophp\framework\tests\unit\Cache\TransactionSessionCacheTest.php" line="108" assertions="3" time="0.002407"/>
+      </testsuite>
+      <testsuite name="CorsMiddlewareTest" file="C:\Projects\merophp\framework\tests\unit\Http\CorsMiddlewareTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.055533">
+        <testcase name="testProcess" class="CorsMiddlewareTest" classname="CorsMiddlewareTest" file="C:\Projects\merophp\framework\tests\unit\Http\CorsMiddlewareTest.php" line="15" assertions="1" time="0.050634"/>
+        <testcase name="testProcessWithDisallowedOrigin" class="CorsMiddlewareTest" classname="CorsMiddlewareTest" file="C:\Projects\merophp\framework\tests\unit\Http\CorsMiddlewareTest.php" line="28" assertions="1" time="0.004752"/>
+        <testcase name="testProcessWithAllOriginsAllowed" class="CorsMiddlewareTest" classname="CorsMiddlewareTest" file="C:\Projects\merophp\framework\tests\unit\Http\CorsMiddlewareTest.php" line="40" assertions="1" time="0.000147"/>
+      </testsuite>
+      <testsuite name="LogManagerTest" file="C:\Projects\merophp\framework\tests\unit\Logging\LogManagerTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.056935">
+        <testcase name="testGetLogger" class="LogManagerTest" classname="LogManagerTest" file="C:\Projects\merophp\framework\tests\unit\Logging\LogManagerTest.php" line="21" assertions="2" time="0.056294"/>
+        <testcase name="testGetLoggers" class="LogManagerTest" classname="LogManagerTest" file="C:\Projects\merophp\framework\tests\unit\Logging\LogManagerTest.php" line="38" assertions="1" time="0.000117"/>
+        <testcase name="testMagic" class="LogManagerTest" classname="LogManagerTest" file="C:\Projects\merophp\framework\tests\unit\Logging\LogManagerTest.php" line="46" assertions="0" time="0.000523"/>
+      </testsuite>
+      <testsuite name="ArrayUtilityTest" file="C:\Projects\merophp\framework\tests\unit\Utility\ArrayUtilityTest.php" tests="3" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.001893">
+        <testcase name="testFind" class="ArrayUtilityTest" classname="ArrayUtilityTest" file="C:\Projects\merophp\framework\tests\unit\Utility\ArrayUtilityTest.php" line="12" assertions="2" time="0.001707"/>
+        <testcase name="testFindWithInvalidArrayInput" class="ArrayUtilityTest" classname="ArrayUtilityTest" file="C:\Projects\merophp\framework\tests\unit\Utility\ArrayUtilityTest.php" line="25" assertions="1" time="0.000099"/>
+        <testcase name="testFindWithInvalidCallbackInput" class="ArrayUtilityTest" classname="ArrayUtilityTest" file="C:\Projects\merophp\framework\tests\unit\Utility\ArrayUtilityTest.php" line="34" assertions="1" time="0.000088"/>
+      </testsuite>
+      <testsuite name="EnvironmentUtilityTest" file="C:\Projects\merophp\framework\tests\unit\Utility\EnvironmentUtilityTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001280">
+        <testcase name="testIsCli" class="EnvironmentUtilityTest" classname="EnvironmentUtilityTest" file="C:\Projects\merophp\framework\tests\unit\Utility\EnvironmentUtilityTest.php" line="11" assertions="1" time="0.001280"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="IntegrationTests" tests="14" assertions="27" errors="0" warnings="0" failures="0" skipped="0" time="0.175323">
+      <testsuite name="AppFactoryTest" file="C:\Projects\merophp\framework\tests\integration\AppFactoryTest.php" tests="1" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="0.078266">
+        <testcase name="test" class="AppFactoryTest" classname="AppFactoryTest" file="C:\Projects\merophp\framework\tests\integration\AppFactoryTest.php" line="12" assertions="8" time="0.078266"/>
+      </testsuite>
+      <testsuite name="AutoloaderTest" file="C:\Projects\merophp\framework\tests\integration\Autoloader\AutoloaderTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.008501">
+        <testcase name="testAutoloadClass" class="AutoloaderTest" classname="AutoloaderTest" file="C:\Projects\merophp\framework\tests\integration\Autoloader\AutoloaderTest.php" line="22" assertions="1" time="0.008501"/>
+      </testsuite>
+      <testsuite name="BundleManagerTest" file="C:\Projects\merophp\framework\tests\integration\BundleManagement\BundleManagerTest.php" tests="3" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.036873">
+        <testcase name="testRegisterBundle" class="BundleManagerTest" classname="BundleManagerTest" file="C:\Projects\merophp\framework\tests\integration\BundleManagement\BundleManagerTest.php" line="28" assertions="0" time="0.009467"/>
+        <testcase name="testStartRegisteredBundles" class="BundleManagerTest" classname="BundleManagerTest" file="C:\Projects\merophp\framework\tests\integration\BundleManagement\BundleManagerTest.php" line="37" assertions="1" time="0.024547"/>
+        <testcase name="testTearDownStartedBundles" class="BundleManagerTest" classname="BundleManagerTest" file="C:\Projects\merophp\framework\tests\integration\BundleManagement\BundleManagerTest.php" line="49" assertions="1" time="0.002858"/>
+      </testsuite>
+      <testsuite name="HoleRequestProcessingTest" file="C:\Projects\merophp\framework\tests\integration\Common\HoleRequestProcessingTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.039082">
+        <testcase name="test" class="HoleRequestProcessingTest" classname="HoleRequestProcessingTest" file="C:\Projects\merophp\framework\tests\integration\Common\HoleRequestProcessingTest.php" line="12" assertions="1" time="0.039082"/>
+      </testsuite>
+      <testsuite name="EventManagerTest" file="C:\Projects\merophp\framework\tests\integration\EventManagement\EventManagerTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001456">
+        <testcase name="testEventDispatching" class="EventManagerTest" classname="EventManagerTest" file="C:\Projects\merophp\framework\tests\integration\EventManagement\EventManagerTest.php" line="23" assertions="1" time="0.001456"/>
+      </testsuite>
+      <testsuite name="RequestControllerTest" file="C:\Projects\merophp\framework\tests\integration\RequestControlling\RequestControllerTest.php" tests="3" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.009278">
+        <testcase name="testScopeWithInvalidInput" class="RequestControllerTest" classname="RequestControllerTest" file="C:\Projects\merophp\framework\tests\integration\RequestControlling\RequestControllerTest.php" line="34" assertions="1" time="0.006553"/>
+        <testcase name="testMatch" class="RequestControllerTest" classname="RequestControllerTest" file="C:\Projects\merophp\framework\tests\integration\RequestControlling\RequestControllerTest.php" line="46" assertions="3" time="0.000639"/>
+        <testcase name="testDispatch" class="RequestControllerTest" classname="RequestControllerTest" file="C:\Projects\merophp\framework\tests\integration\RequestControlling\RequestControllerTest.php" line="72" assertions="2" time="0.002086"/>
+      </testsuite>
+      <testsuite name="RouterTest" file="C:\Projects\merophp\framework\tests\integration\Routing\RouterTest.php" tests="3" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.001757">
+        <testcase name="testScopeWithInvalidInput" class="RouterTest" classname="RouterTest" file="C:\Projects\merophp\framework\tests\integration\Routing\RouterTest.php" line="34" assertions="1" time="0.000209"/>
+        <testcase name="testMatch" class="RouterTest" classname="RouterTest" file="C:\Projects\merophp\framework\tests\integration\Routing\RouterTest.php" line="46" assertions="3" time="0.001294"/>
+        <testcase name="testDispatch" class="RouterTest" classname="RouterTest" file="C:\Projects\merophp\framework\tests\integration\Routing\RouterTest.php" line="72" assertions="2" time="0.000254"/>
+      </testsuite>
+      <testsuite name="ViewEngineTest" file="C:\Projects\merophp\framework\tests\integration\ViewEngine\ViewEngineTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.000109">
+        <testcase name="test" class="ViewEngineTest" classname="ViewEngineTest" file="C:\Projects\merophp\framework\tests\integration\ViewEngine\ViewEngineTest.php" line="24" assertions="2" time="0.000109"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

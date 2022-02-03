@@ -1,0 +1,36 @@
+{
+  "includes": [
+    "src",
+    "vendor\\merophp\\autoloader\\src",
+    "vendor\\merophp\\bundle-manager\\src",
+    "vendor\\merophp\\html-view\\src",
+    "vendor\\merophp\\json-view\\src",
+    "vendor\\merophp\\log-manager\\src",
+    "vendor\\merophp\\object-manager\\src",
+    "vendor\\merophp\\php-template-view\\src",
+    "vendor\\merophp\\reflection\\src",
+    "vendor\\merophp\\router\\src",
+    "vendor\\merophp\\singleton\\src",
+    "vendor\\merophp\\text-view\\src",
+    "vendor\\merophp\\view-engine\\src",
+    "vendor\\merophp\\xml-view\\src"
+  ],
+  "exclude": [
+    "tests"
+  ],
+  "report": {
+    "html": "metrics/report/",
+    "csv": "metrics/report.csv",
+    "json": "metrics/report.json",
+    "violations": "metrics/violations.xml"
+  },
+  "plugins": {
+    "git": {
+      "binary": "git"
+    },
+    "junit": {
+      "report": "junit.xml"
+    }
+  },
+  "extensions": [ "php" ]
+}
