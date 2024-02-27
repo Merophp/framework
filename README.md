@@ -67,7 +67,7 @@ Your bundles has to provide a bootstrapper class which implements the interface 
 use Merophp\Framework\BundleManagement\BundleBootstrapper\AbstractBundleBootstrapper;
 use Merophp\Router\Routes\GetRoute;
 
-class Boostrapper extends AbstractBundleBootstrapper
+class Bootstrapper extends AbstractBundleBootstrapper
 {
     public function setup(){
         $this->app->getRouter()->addRoutes(
@@ -92,6 +92,10 @@ class Boostrapper extends AbstractBundleBootstrapper
   }
 }
 </code></pre>
+
+Run: <code>
+composer update
+</code>
 
 index.php:
 <pre><code>use Merophp\Framework\AppFactory;
