@@ -139,7 +139,7 @@ class MyCoolController extends AbstractController
      */
     public function myAction($name)
     {
-        //$arguments = $this->request->getDecodedBody();
+        //$arguments = $this->request->getParsedBody();
 
         $this->view->text('Hello '.$name);
     }
